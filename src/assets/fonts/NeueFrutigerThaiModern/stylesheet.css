@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'NeueFrutigerThaiModern-Bd';
+    src: url('NeueFrutigerThaiModern-Bd.woff2') format('woff2'),
+        url('NeueFrutigerThaiModern-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeueFrutigerThaiModern-Rg';
+    src: url('NeueFrutigerThaiModern-Rg.woff2') format('woff2'),
+        url('NeueFrutigerThaiModern-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeueFrutigerThaiModern-Lt';
+    src: url('NeueFrutigerThaiModern-Lt.woff2') format('woff2'),
+        url('NeueFrutigerThaiModern-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

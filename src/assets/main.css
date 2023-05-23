@@ -1,38 +1,30 @@
-@import './base.css';
+/* Import font-family */
+/* AllianzNeof */
+@import '@/assets/fonts/AllianzNeo/stylesheet.css';
+
+/* NeueFrutigerThaiModern */
+@import '@/assets/fonts/NeueFrutigerThaiModern/stylesheet.css';
+
+/* Base tailwind css config */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
+    font-family: 'NeueFrutigerThaiModern-Rg', Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #70605e;
+    background-color: #f4f3f4;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+/* sm breakpoint */
+@media screen and (min-width: 640px) {
+    /* todo */
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+/* md breakpoint */
+@media screen and (min-width: 768px) {
+    /* todo */
 }
